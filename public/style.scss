@@ -34,6 +34,24 @@ body {
       }
     }
 
+  footer {
+    background: #222;
+    padding-bottom: 4rem;
+    ul {
+      text-align: center;
+      li {
+        background: #fff;
+        border-radius: 5%;
+        display: inline-block;
+        margin: 1.5rem;
+        padding: 0.5rem 2rem;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
 }
 
 /* IDs */

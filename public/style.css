@@ -23,6 +23,19 @@ body {
           height: auto;
           width: 30px;
           max-width: 100%; }
+  body footer {
+    background: #222;
+    padding-bottom: 4rem; }
+    body footer ul {
+      text-align: center; }
+      body footer ul li {
+        background: #fff;
+        border-radius: 5%;
+        display: inline-block;
+        margin: 1.5rem;
+        padding: 0.5rem 2rem; }
+        body footer ul li:hover {
+          cursor: pointer; }
 
 /* IDs */
 .trending-section article {

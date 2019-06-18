@@ -1,29 +1,33 @@
 /* General Elements */
 body {
   scroll-behavior: smooth; }
+  body a {
+    color: #333; }
+    body a:hover {
+      text-decoration: none; }
   body header {
-    background: #1D428A; }
+    background: #1D428A;
+    position: fixed;
+    width: 100%; }
     body header ul {
       text-align: center; }
-      body header ul a {
-        color: #333; }
-        body header ul a li {
-          background: #fff;
-          border-radius: 5%;
-          display: inline-block;
-          margin: 1.5rem;
-          padding: 0.5rem 2rem; }
-          body header ul a li:hover {
-            cursor: pointer; }
-          body header ul a li img {
-            height: auto;
-            width: 30px;
-            max-width: 100%; }
+      body header ul li {
+        background: #fff;
+        border-radius: 5%;
+        display: inline-block;
+        margin: 1.5rem;
+        padding: 0.5rem 2rem; }
+        body header ul li:hover {
+          cursor: pointer; }
+        body header ul li img {
+          height: auto;
+          width: 30px;
+          max-width: 100%; }
 
 /* IDs */
 .trending-section article {
   display: inline-block;
-  margin: auto 1rem;
+  margin: 4rem 1rem;
   height: 400px;
   max-height: 100%;
   width: auto; }

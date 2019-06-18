@@ -1,0 +1,42 @@
+/* General Elements */
+body {
+  scroll-behavior: smooth; }
+  body header {
+    background: #1D428A; }
+    body header ul {
+      text-align: center; }
+      body header ul a {
+        color: #333; }
+        body header ul a li {
+          background: #fff;
+          border-radius: 5%;
+          display: inline-block;
+          margin: 1.5rem;
+          padding: 0.5rem 2rem; }
+          body header ul a li:hover {
+            cursor: pointer; }
+          body header ul a li img {
+            height: auto;
+            width: 30px;
+            max-width: 100%; }
+
+/* IDs */
+.trending-section article {
+  display: inline-block;
+  margin: auto 1rem;
+  height: 400px;
+  max-height: 100%;
+  width: auto; }
+
+.trending-section h2 {
+  margin-bottom: 2rem; }
+
+.trending-section section {
+  text-align: center; }
+
+.trending-teams article img {
+  height: auto;
+  width: 200px;
+  max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

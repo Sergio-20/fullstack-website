@@ -14,9 +14,9 @@ export default class Trending extends Component {
 
     return(
 
-      <section class="trending-section">
+      <section className="trending-section">
 
-        <section id="coaches" class="trending-coaches">
+        <section id="coaches" className="trending-coaches">
 
           <h2 className="text-center">Trending Legendary Coaches</h2>
 
@@ -62,7 +62,7 @@ export default class Trending extends Component {
 
         </section>
 
-        <section id="players" class="trending-players">
+        <section id="players" className="trending-players">
 
           <h2 className="text-center">Trending Legendary Players</h2>
 
@@ -112,7 +112,7 @@ export default class Trending extends Component {
 
         </section>
 
-        <section id="teams" class="trending-teams">
+        <section id="teams" className="trending-teams">
 
           <h2 className="text-center">Trending Legendary Teams</h2>
 

@@ -21,7 +21,7 @@ export default class Footer extends Component {
             <li><a href="#teams">Legendary Teams</a></li>
             <li><a href="#">Join The Debate</a></li>
           </ul>
-          <h4 class="text-light text-center">&copy; Legendary Basketball Copyright 2019. All Rights Reserved.</h4>
+          <h4 className="text-light text-center">&copy; Legendary Basketball Copyright 2019. All Rights Reserved.</h4>
         </nav>
       </footer>
     );

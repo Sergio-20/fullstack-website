@@ -8,7 +8,7 @@ body {
   body header {
     background: #1D428A;
     display: flex;
-    position: fixed;
+    margin-bottom: 5rem;
     width: 100%; }
     body header ul {
       flex-wrap: wrap;

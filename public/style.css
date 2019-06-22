@@ -1,6 +1,6 @@
 /* General Elements */
 body {
-  scroll-behavior: smooth !important; }
+  scroll-behavior: smooth; }
   body a {
     color: #333; }
     body a:hover {
@@ -12,7 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 5rem;
-    width: 100%; }
+    width: 100%;
+    z-index: 1; }
     body header ul {
       flex-wrap: wrap;
       text-align: center; }

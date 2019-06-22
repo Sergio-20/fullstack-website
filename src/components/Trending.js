@@ -16,9 +16,9 @@ export default class Trending extends Component {
 
       <section className="trending-section">
 
-        <section id="coaches" className="trending-coaches">
+        <h2 className="text-center">Trending Legendary Coaches</h2>
 
-          <h2 className="text-center">Trending Legendary Coaches</h2>
+        <section id="coaches" className="trending-coaches">
 
           <article>
 
@@ -61,11 +61,11 @@ export default class Trending extends Component {
           </article>
 
         </section>
+
+        <h2 className="text-center">Trending Legendary Players</h2>
 
         <section id="players" className="trending-players">
 
-          <h2 className="text-center">Trending Legendary Players</h2>
-
           <article>
 
             <a href="#">
@@ -112,9 +112,9 @@ export default class Trending extends Component {
 
         </section>
 
-        <section id="teams" className="trending-teams">
+        <h2 className="text-center">Trending Legendary Teams</h2>
 
-          <h2 className="text-center">Trending Legendary Teams</h2>
+        <section id="teams" className="trending-teams">
 
           <article>
 
@@ -166,7 +166,7 @@ export default class Trending extends Component {
 
             <a className="twitter-timeline" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/YahooSportsNBA?ref_src=twsrc%5Etfw">Tweets by YahooSportsNBA</a>
 
-            <a class="twitter-timeline" data-width="1200" data-height="800" data-theme="dark" href="https://twitter.com/NBAalumni?ref_src=twsrc%5Etfw">Tweets by NBAalumni</a>
+            <a className="twitter-timeline" data-width="1200" data-height="800" data-theme="dark" href="https://twitter.com/NBAalumni?ref_src=twsrc%5Etfw">Tweets by NBAalumni</a>
 
         </section>
 

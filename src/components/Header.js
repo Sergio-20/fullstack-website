@@ -19,7 +19,7 @@ export default class Header extends Component {
             <a href="#coaches"><li>Legendary Coaches</li></a>
             <a href="#players"><li>Legendary Players</li></a>
             <a href="#teams"><li>Legendary Teams</li></a>
-            <a href="#debate"><li>Join The Debate</li></a>
+            <a href="#debate"><li>Join The Discussion</li></a>
             <li id="search-container"><input className="searchbox" type="text" placeholder="Search..." /></li>
           </ul>
         </nav>

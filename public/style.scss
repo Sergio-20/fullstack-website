@@ -12,18 +12,23 @@ body {
 
   header {
     background: #1D428A;
+    display: flex;
     position: fixed;
     width: 100%;
     ul {
+      flex-wrap: wrap;
       text-align: center;
         li {
-          background: #fff;
-          border-radius: 5%;
+          border-radius: 6px;
+          color: #fff;
           display: inline-block;
-          margin: 1.5rem;
-          padding: 0.5rem 2rem;
+          flex-wrap: wrap;
+          list-style-type: none;
+          margin: 0.5rem;
+          padding: 0.5rem;
           &:hover {
             cursor: pointer;
+            text-decoration: underline;
           }
           img {
             height: auto;
@@ -55,6 +60,16 @@ body {
 }
 
 /* IDs */
+
+#search-container {
+  background: #fff;
+}
+
+/* Classes */
+
+.searchbox {
+  border: none;
+}
 
 .trending-section article {
   display: inline-block;

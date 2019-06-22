@@ -64,6 +64,9 @@ body {
   max-height: 100%;
   width: auto; }
 
+.trending-section article img {
+  margin: 0 auto; }
+
 .trending-section h2 {
   margin-bottom: 2rem; }
 

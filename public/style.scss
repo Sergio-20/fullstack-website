@@ -1,7 +1,7 @@
 /* General Elements */
 body {
 
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 
   a {
     color: #333;
@@ -13,6 +13,9 @@ body {
   header {
     background: #1D428A;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 5rem;
     width: 100%;
     ul {
@@ -69,6 +72,10 @@ body {
 
 .searchbox {
   border: none;
+}
+
+.the-debate {
+  margin-bottom: 5rem;
 }
 
 .trending-section article {

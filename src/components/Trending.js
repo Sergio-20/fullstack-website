@@ -158,6 +158,18 @@ export default class Trending extends Component {
 
         </section>
 
+        <section id="debate" className="the-debate">
+
+            <a className="twitter-timeline" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/NBA?ref_src=twsrc%5Etfw">Tweets by NBA</a>
+
+            <a className="twitter-timeline" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/ESPNNBA?ref_src=twsrc%5Etfw">Tweets by ESPNNBA</a>
+
+            <a className="twitter-timeline" data-width="400" data-height="800" data-theme="dark" href="https://twitter.com/YahooSportsNBA?ref_src=twsrc%5Etfw">Tweets by YahooSportsNBA</a>
+
+            <a class="twitter-timeline" data-width="1200" data-height="800" data-theme="dark" href="https://twitter.com/NBAalumni?ref_src=twsrc%5Etfw">Tweets by NBAalumni</a>
+
+        </section>
+
       </section>
 
     );

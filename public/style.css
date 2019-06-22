@@ -1,6 +1,6 @@
 /* General Elements */
 body {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth !important; }
   body a {
     color: #333; }
     body a:hover {
@@ -8,6 +8,9 @@ body {
   body header {
     background: #1D428A;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 5rem;
     width: 100%; }
     body header ul {
@@ -49,6 +52,9 @@ body {
 /* Classes */
 .searchbox {
   border: none; }
+
+.the-debate {
+  margin-bottom: 5rem; }
 
 .trending-section article {
   display: inline-block;
